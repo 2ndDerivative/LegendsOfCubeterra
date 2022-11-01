@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "cubeterra",
   "version": "${version}",
 
-  "name": "Mod Template",
-  "description": "If you read this you haven't changed the description yet!",
+  "name": "Legends Of Cubeterra",
+  "description": "A Minecraft mod inspired by the lore of Runeterra.",
   "authors": [
     "2ndDerivative"
   ],
   "contact": {
-    "sources": "https://github.com/2ndDerivative/ModTemplate"
+    "sources": "https://github.com/2ndDerivative/LegendsOfCubeterra"
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/cubeterra/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.Entrypoint"
+      "cubeterra.Entrypoint"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "cubeterra.mixins.json"
   ],
 
   "depends": {

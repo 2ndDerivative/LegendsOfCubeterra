@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 42069420,
+    "separation": 16,
+    "spacing": 50
+  },
+  "structures": [
+    {
+      "structure": "cubeterra:cursed_desert_pyramid",
+      "weight": 1
+    }
+  ]
+}
